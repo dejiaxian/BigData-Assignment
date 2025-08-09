@@ -44,6 +44,7 @@ hadoop fs -getmerge /user/hadoop/reviews_wc/part-* ~/workspace/reviews_counts.tx
 sort -k2 -nr ~/workspace/reviews_counts.txt | head -n 20
 
 # Step 10: Create the mapper and reducer script for sentiment analysis and make it executable
+# Scripts are available at mapper_sentiment.py and reducer_sentiment.py
 nano mapper_sentiment.py
 nano reducer_sentiment.py
 chmod +x mapper_sentiment.py reducer_sentiment.py
@@ -87,4 +88,3 @@ hadoop fs -cat /user/hadoop/sentiment_out/part-* \
   | sort -k2,2nr \
   | head -n 20 \
   | awk 'BEGIN{print "Top 20 Neutral Keywords:"; print "      word       n"} {printf("%d:  %-10s %d\n", NR, $1, $2)}'
-
