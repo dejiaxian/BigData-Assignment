@@ -15,12 +15,8 @@ The dataset used in this assignment is the Steam Reviews Dataset by forgemaster 
 4. Analyze the results to identify strengths and limitations of each method.
 5. Reflect on the practical considerations of choosing between MapReduce and alternative processing techniques for Big Data tasks.
 
-# How to run MapReduce Approach?
-1. Go to the "MapReduce_Approach" folder 
-2. Run the commands in the "MapReduce.sh" file line by line
-3. 
+# MapReduce Solution
+The Hadoop-based solution that employs the MapReduce algorithm runs on a cluster of AWS EC2 instances, where it is configured with 1 master node and 2 slave nodes. This solution can be accessed at the "MapReduce_Approach" folder, then follow the instructions in the "MapReduce.sh" file and run the commands line by line.
 
-
-# How to run Non-MapReduce Approach?
-
+# Non-MapReduce Solution
 
