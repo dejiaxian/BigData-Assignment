@@ -6,7 +6,7 @@ This project explores Big Data Analytics in the cloud by implementing and evalua
 
 The work involves selecting a suitable dataset, implementing comparable algorithms in both approaches, and analyzing their outputs to understand trade-offs in efficiency, complexity, and resource usage. The comparison provides insights into when MapReduce is most beneficial versus when alternative methods may be preferable.
 
-The dataset used in this assignment is the "reviews-1230-2345.csv" Steam Reviews Dataset by forgemaster on Kaggle: https://www.kaggle.com/datasets/forgemaster/steam-reviews-dataset
+The dataset used in this assignment is the "reviews-1230-2345.csv", which is available through the Google Drive link provided in Dataset.md. It is sourced from the Steam Reviews Dataset by forgemaster on Kaggle: https://www.kaggle.com/datasets/forgemaster/steam-reviews-dataset. 
 
 # Objectives
 1. Implement a MapReduce algorithm to process and analyze a large dataset in a cloud-based distributed environment.
